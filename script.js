@@ -90,7 +90,6 @@ $(document).ready(function () {
         new ScheduleTime(14, 0, 15, 30),
         new ScheduleTime(15, 45, 17, 15),
         new ScheduleTime(17, 30, 19, 0),
-        new ScheduleTime(21, 36, 23, 46),
     ]
 
     var current_task = null;
