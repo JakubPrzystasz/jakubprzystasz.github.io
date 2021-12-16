@@ -57,24 +57,19 @@ class ScheduleTime {
 
 function animate(current_task) {
     $('.pour') //Pour Me Another Drink, Bartender!
-        .delay(1500)
         .animate({
             height: '360px'
-        }, 1500);
-    // .delay(1600)
-    // .slideUp(1500);
+        }, 100);
 
     $('#liquid') // I Said Fill 'Er Up!
-        .delay(1500)
         .animate({
             height: current_task.getPercentage() * 190 + 'px'
-        }, 1300);
+        }, 100);
 
     $('.beer-foam') // Keep that Foam Rollin' Toward the Top! Yahooo!
-        .delay(1500)
         .animate({
             bottom: current_task.getPercentage() * 220 + 'px'
-        }, 1300);
+        }, 100);
 }
 
 $(document).ready(function () {
