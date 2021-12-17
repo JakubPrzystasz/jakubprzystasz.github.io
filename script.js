@@ -59,17 +59,17 @@ function animate(current_task) {
     $('.pour') //Pour Me Another Drink, Bartender!
         .animate({
             height: '360px'
-        }, 100);
+        }, 450);
 
     $('#liquid') // I Said Fill 'Er Up!
         .animate({
             height: current_task.getPercentage() * 190 + 'px'
-        }, 100);
+        }, 450);
 
     $('.beer-foam') // Keep that Foam Rollin' Toward the Top! Yahooo!
         .animate({
             bottom: current_task.getPercentage() * 220 + 'px'
-        }, 100);
+        }, 450);
 }
 
 $(document).ready(function () {
